@@ -8,7 +8,7 @@ import {
   Mask,
 } from "./strategies";
 
-export default function strategy() {
+export function strategy() {
   const superman = new SuperHero(new Flight(), new Cape());
   superman.donCostume();
   superman.applySuperPower();
